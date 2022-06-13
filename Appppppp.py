@@ -23,6 +23,7 @@ def results():
     view=float (request.form['view'])
     conditiion=float (request.form['conditiion'])
     sqft_above=float (request.form['sqft_above'])
+    sqft_basement = float(request.form['sqft_basement'])
     yr_built=float (request.form['yr_built'])
     yr_renovated= (request.form['yr_renovated'])
 
